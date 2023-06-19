@@ -1,8 +1,13 @@
+body{
+    background-color: #C4DAE6;
+}
+
+.navbar{
+}
+
 .banner-container{
     position: relative;
     flex-wrap: wrap;
-    background-color:rgb(31, 29, 29);
-    height: 100vh;
 }
 
 .banner-text{
