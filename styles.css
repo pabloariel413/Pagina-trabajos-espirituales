@@ -2,7 +2,8 @@ body{
     background-color: #C4DAE6;
 }
 
-.navbar{
+.dropdown-menu{
+    background-color: #C2B1D6;
 }
 
 .banner-container{
@@ -15,7 +16,7 @@ body{
     position: absolute;
     font-family: 'Cormorant Garamond', serif;
     text-shadow: 5px 5px 10px #000;
-    background-color: turquoise;
+    background-color: #C2B1D6;
     top: 40%;
     left: 37%;
 }
@@ -23,7 +24,9 @@ body{
 .cards-container{
     padding: 40px;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    background-color: #92C8E0;
+    margin-top: 20px;
 }
 
 .card {
@@ -36,10 +39,10 @@ body{
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-    width: 20%;
+    max-width: 320px;
 }
 
-.card.hover{
+.card:hover{
     transform: scale(1.1);
 }
 
