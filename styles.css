@@ -8,17 +8,20 @@ body{
 
 .banner-container{
     position: relative;
-    flex-wrap: wrap;
+}
+
+.banner-container img{
+    min-height: 300px;
 }
 
 .banner-text{
-    padding: 0px 0px 0px;
     position: absolute;
     font-family: 'Cormorant Garamond', serif;
     text-shadow: 5px 5px 10px #000;
     background-color: #C2B1D6;
+    padding: 20px 50px 20px;
     top: 40%;
-    left: 37%;
+    left: 40%;
 }
 
 .cards-container{
@@ -53,7 +56,7 @@ body{
 }
 
 .about-container{
-    background-color: #92C8E0;
+    background-color: #69ABD5;
     width: 100%;
     display: flex;
     margin-top: 100px;
@@ -70,7 +73,25 @@ padding-top: 100px;
     padding-top: 30px;
 }
 
+.boxes-container .title{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.box1 img{
+max-width: 500px;
+}
+
+.box1{
+    background-color: #69ABD5;
+}
+
 @media screen and (max-width: 600px){
+    .banner-text{
+        top: 30%;
+        left: 10%;
+        padding: 10px;
+    }
     .about-container{
         flex-direction: column;
         padding: 0;
