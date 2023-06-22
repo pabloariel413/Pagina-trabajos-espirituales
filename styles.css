@@ -1,20 +1,20 @@
-body{
+body {
     background-color: #C4DAE6;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #C2B1D6;
 }
 
-.banner-container{
+.banner-container {
     position: relative;
 }
 
-.banner-container img{
+.banner-container img {
     min-height: 300px;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     font-family: 'Cormorant Garamond', serif;
     text-shadow: 5px 5px 10px #000;
@@ -24,7 +24,7 @@ body{
     left: 40%;
 }
 
-.cards-container{
+.cards-container {
     padding: 40px;
     justify-content: center;
     gap: 20px;
@@ -35,27 +35,27 @@ body{
 }
 
 .card {
-	border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
     width: 320px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.1);
 }
 
-.card .textos{
+.card .textos {
     color: aliceblue;
     text-shadow: 2px 2px 5px #000;
 }
 
-.about-container{
+.about-container {
     background-color: #69ABD5;
     width: 100%;
     display: flex;
@@ -63,40 +63,127 @@ body{
     padding-left: 50px;
 }
 
-.about-text{
-padding-left: 20px;
-text-align: center;
-padding-top: 100px;
+.about-text {
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 100px;
 }
 
-.about-text h4{
+.about-text h4 {
     padding-top: 30px;
 }
 
-.boxes-container .title{
+.trabajos .title {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.box1 img{
-max-width: 500px;
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
-.box1{
+.box1 img {
+    max-width: 30%;
+    min-width: 300px;
+}
+
+.box1 {
+    background-color: #C2B1D6;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.box2 img {
+    max-width: 30%;
+    min-width: 300px;
+}
+
+.box2 {
     background-color: #69ABD5;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
 }
 
-@media screen and (max-width: 600px){
-    .banner-text{
+.Testimonios h2{
+    background-color: #C2B1D6;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.carrusel .item{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #69ABD5;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.call{
+    background-color:#92C8E0;
+    margin: 100px;
+    padding: 50px;
+    margin: 100px 30%;
+}
+
+.call button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.footer-container{
+    background-color: #8964B2;
+    width: 100%;
+}
+
+.footer-container .info{
+
+}
+
+@media screen and (max-width: 600px) {
+    .banner-text {
         top: 30%;
         left: 10%;
         padding: 10px;
     }
-    .about-container{
+
+    .about-container {
         flex-direction: column;
         padding: 0;
     }
-    .about-text{
+
+    .about-text {
         padding-top: 20px;
+    }
+
+    .boxes-container {
+        padding: 10px;
+    }
+    .box1{
+        flex-wrap: wrap;
+    }
+    .box2{
+        flex-wrap: wrap;
+    }
+    .Testimonios h2{
+        margin: 50px 0;
     }
 }
