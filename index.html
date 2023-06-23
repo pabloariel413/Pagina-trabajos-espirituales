@@ -12,34 +12,37 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #8964B2;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #8964B2">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">🕯️Ayuda Espiritual🕯️</a>
+          <a class="navbar-brand" href="#" style="color: aliceblue;">🕯️Ayuda Espiritual🕯️</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Mí</a>
+                <a class="nav-link" href="#about" style="color: aliceblue;">Sobre Mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonios</a>
+                <a class="nav-link" href="#testimonios" style="color: aliceblue;">Testimonios</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" style="color: aliceblue;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Ayudas que ofrezco
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Abrecaminos</a></li>
-                  <li><a class="dropdown-item" href="#">Amarres</a></li>
-                  <li><a class="dropdown-item" href="#">Sanaciones</a></li>
-                  <li><a class="dropdown-item" href="#">Limpiezas</a></li>
-                  <li><a class="dropdown-item" href="#">Consultas a los buzios</a></li>
+                  <li><a class="dropdown-item" href="#abrecaminos">Abrecaminos</a></li>
+                  <li><a class="dropdown-item" href="#amarres">Amarres</a></li>
+                  <li><a class="dropdown-item" href="#sanaciones">Sanaciones</a></li>
+                  <li><a class="dropdown-item" href="#limpiezas">Limpiezas</a></li>
+                  <li><a class="dropdown-item" href="#yogada">Consultas a los buzios</a></li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" style="color: aliceblue;">Contacto</a>
               </li>
             </ul>
           </div>
@@ -55,70 +58,88 @@
         </div>
         </div>
             <div class="cards-container">
+              <a href="#abrecaminos">
                 <div class="card card col-xs-12 col-sm-12" style="background-image: url('./img/abrecaminos.jpg')">
-                    <div class="textos">
-                        <h3>Abrecaminos</h3>
-                        <p>Toque para más info</p>
-                    </div>
-                </div>
+                  <div class="textos">
+                      <h3>Abrecaminos</h3>
+                      <p>Toque para más info</p>
+                  </div>
+              </div>
+              </a>
+              <a href="#amarres">
                 <div class="card card col-xs-12 col-sm-12" style="background-image: url('./img/amarres.jpg')">
-                    <div class="textos">
-                        <h3>Amares de amor</h3>
-                        <p>Toque para más info</p>
-                    </div>
-                </div>
+                  <div class="textos">
+                      <h3>Amarres de amor</h3>
+                      <p>Toque para más info</p>
+                  </div>
+              </div>
+              </a>
+              <a href="#sanaciones">                
                 <div class="card card col-xs-12 col-sm-12" style="background-image: url('./img/sanaciones.jpg')">
-                    <div class="textos">
-                        <h3>Sanaciones y destrabes</h3>
-                        <p>Toque para más info</p>
-                    </div>
-                </div>
-    
-                <div class="card card col-xs-12 col-sm-12" style="background-image: url('./img/limpieza.jpg')">
-                    <div class="textos">
-                        <h3>Limpiezas de casas u oficinas</h3>
-                        <p>Toque para más info</p>
-                    </div>
-                </div>
-                <div class="card col-xs-12 col-sm-12" style="background-image: url('./img/yogada\ de\ buzios.jpg')">
-                    <div class="textos">
-                        <h3>Yogada de buzios</h3>
-                        <p>Toque para más info</p>
-                    </div>
+                <div class="textos">
+                    <h3>Sanaciones y destrabes</h3>
+                    <p>Toque para más info</p>
                 </div>
             </div>
+          </a>
+              <a href="#limpiezas">
+                <div class="card card col-xs-12 col-sm-12" style="background-image: url('./img/limpieza.jpg')">
+                  <div class="textos">
+                      <h3>Limpiezas de casas u oficinas</h3>
+                      <p>Toque para más info</p>
+                  </div>
+              </div>
+              </a>
+              <a href="#yogada">
+                <div class="card col-xs-12 col-sm-12" style="background-image: url('./img/yogada\ de\ buzios.jpg')">
+                  <div class="textos">
+                      <h3>Yogada de buzios</h3>
+                      <p>Toque para más info</p>
+                  </div>
+              </div>
+          </div>
+              </a>
     </header>
-    <section class="about-container">
+    <a href="" class="wsp-float" target="_blank">
+      <button type="button" class="btn btn-success">
+        <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+      </svg>
+    </button>
+    </a>
+    <section id="about" class="about-container">
       <img src="img/iemanja.jpg" alt="">
       <div class="about-text">
       <h2>Norma - Mae De Umbanda</h2>
       <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nesciunt autem distinctio reprehenderit beatae ea nulla porro, aspernatur hic minus! Explicabo provident natus, vitae sit praesentium aliquid nostrum numquam earum?</h4>
       </div>
     </section>
-    <section class="trabajos">
+    <section id="trabajos" class="trabajos">
         <h2 class="title text-center">Trabajos Espirituales</h2>
         <div class="boxes-container">
-        <div class="box1">
+        <div id="abrecaminos" class="box1">
           <img src="img/abrecaminos.jpg" alt="">
         <div class="text-box">
           <h3>Abrecaminos</h3>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
+             In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis totam vero ullam error perferendis provident corporis eligendi voluptatum, 
+             numquam modi repellendus harum quod deleniti pariatur saepe, culpa tempora. Vero, explicabo!</h5>
+            </div>
+            <a href="">
+              <button type="button" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg> Consulte ahora
+            </button>
+            </a>
         </div>
-        <a href="">
-          <button type="button" class="btn btn-success">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-          </svg> Consulte ahora
-        </button>
-        </a>
-        </div>
-        <div class="box2">
+        <div id="amarres" class="box2">
           <img src="img/amarres.jpg" alt="">
         <div class="text-box">
-          <h3>Abrecaminos</h3>
+          <h3>Amarres</h3>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quaerat delectus, necessitatibus fuga voluptatum impedit fugit maxime sint architecto aperiam provident deleniti fugiat. Blanditiis ratione maiores dicta assumenda deleniti tempora.In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
         </div>
         <a href="">
           <button type="button" class="btn btn-success">
@@ -128,10 +149,10 @@
         </button>
         </a>
         </div>
-        <div class="box1">
+        <div id="sanaciones" class="box1">
           <img src="img/sanaciones.jpg" alt="">
         <div class="text-box">
-          <h3>Abrecaminos</h3>
+          <h3>Sanaciones y destrabes</h3>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
         </div>
@@ -143,10 +164,10 @@
         </button>
         </a>
         </div>
-        <div class="box2">
+        <div id="limpiezas" class="box2">
           <img src="img/limpieza.jpg" alt="">
         <div class="text-box">
-          <h3>Abrecaminos</h3>
+          <h3>Limpiezas de casa y oficina</h3>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
         </div>
@@ -158,10 +179,10 @@
         </button>
         </a>
         </div>
-        <div class="box1">
+        <div id="yogada" class="box1">
           <img src="img/yogada de buzios.jpg" alt="">
         <div class="text-box">
-          <h3>Abrecaminos</h3>
+          <h3>Yogada de buzios</h3>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              In ipsa maxime tempore eligendi incidunt sit? Laboriosam amet esse nesciunt numquam et, voluptate officia ullam ipsum recusandae consequatur consequuntur quam sequi.</h5>
         </div>
@@ -175,7 +196,7 @@
         </div>
             </div>
     </section>
-    <section class="Testimonios">
+    <section id="testimonios" class="Testimonios">
       <h2>Testimonios de mis trabajos</h2>
       <div class="carrusel">
         <div class="item"></div>
@@ -196,7 +217,8 @@
       </button>
       </a>
     </div>
-    <footer class="footer-container">
+    <footer id="contacto" class="footer-container">
+      <div class="info-container">
       <div class="contact">
         <h3>Contacto</h3>
         <li>
@@ -215,8 +237,9 @@
         <h3>Información</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, quo hic natus soluta, necessitatibus nesciunt dolorum voluptatibus quam molestiae similique distinctio esse adipisci aliquam tempora repellat est dicta, sapiente ad!</p>
       </div>
+    </div>
       <div class="copyright text-center">
-        <h5>Copyright ©2022 | Ayuda Espiritual</h5>
+        <p>Copyright ©2022 | Ayuda Espiritual</p>
       </div>
     </footer>
 </body>
