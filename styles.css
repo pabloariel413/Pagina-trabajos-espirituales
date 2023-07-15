@@ -100,7 +100,7 @@ a {
 
 .trabajos .title {
     padding-top: 70px;
-    padding-bottom: 70px;
+    font-size: 50px;
 }
 
 .boxes-container {
@@ -157,6 +157,7 @@ a {
     padding: 30px;
     margin-left: 35%;
     margin-right: 35%;
+    font-size: 40px;
 }
 
 .carrusel {
