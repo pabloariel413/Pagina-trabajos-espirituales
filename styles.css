@@ -37,13 +37,11 @@ a {
 .banner-text {
     position: absolute;
     background-color: #C2B1D6;
-    background-size: contain;
-    padding: 20px 50px 20px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    bottom: 30%;
+    padding: 20px 5px 20px;
 }
 
 .cards-container {
@@ -119,7 +117,7 @@ a {
     padding: 10px 40px;
 }
 
-.box1 img {
+.img-box {
     max-width: 30%;
     min-width: 300px;
 }
@@ -132,11 +130,6 @@ a {
     display: flex;
     gap: 30px;
     position: relative;
-}
-
-.box2 img {
-    max-width: 30%;
-    min-width: 300px;
 }
 
 .box2 {
@@ -207,8 +200,10 @@ a {
 
 @media screen and (max-width: 600px) {
     .banner-text {
-        top: 30%;
-        padding: 5px 30px 5px;
+        top: 20pxpx;
+        left: 0px;
+        right: 0px;
+        bottom: 100px;
     }
 
     .about-container {
@@ -250,8 +245,17 @@ a {
     }
 }
 
-@media screen and (min-width: 1300px){
-    .banner-text{
-        
+@media screen and (min-width: 1300px) {
+    .banner-text {
+        position: absolute;
+        background-color: #C2B1D6;
+        top: 35%;
+        left: 35%;
+        right: 35%;
+        bottom: 40%;
+    }
+
+    .img-box {
+        min-width: 500px;
     }
 }
