@@ -6,12 +6,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.font2 {
-    font-family: "aileron", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 a {
     text-decoration: none;
 }
@@ -43,9 +37,13 @@ a {
 .banner-text {
     position: absolute;
     background-color: #C2B1D6;
+    background-size: contain;
     padding: 20px 50px 20px;
-    top: 40%;
-    left: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }
 
 .cards-container {
@@ -197,7 +195,8 @@ a {
 }
 
 .info-container .contact {
-    width: 30%
+    width: 30%;
+    list-style: none;
 }
 
 .info-container {
@@ -209,8 +208,7 @@ a {
 @media screen and (max-width: 600px) {
     .banner-text {
         top: 30%;
-        left: 10%;
-        padding: 10px;
+        padding: 5px 30px 5px;
     }
 
     .about-container {
@@ -249,5 +247,11 @@ a {
     .info-container {
         flex-wrap: wrap;
         gap: 30px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .banner-text{
+        
     }
 }
